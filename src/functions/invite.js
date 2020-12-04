@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 exports.handler = async function(event, context) {
-  const baseUrl = `https://discordapp.com/api/v6`
+  const baseUrl = `https://discord.com/api/v6`
 
   const channel = process.env.CHANNEL_ID
 

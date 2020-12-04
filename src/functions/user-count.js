@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 exports.handler = async function(event, context) {
-  const baseUrl = `https://discordapp.com/api`
+  const baseUrl = `https://discord.com/api`
 
   const guild = process.env.GUILD_ID
 
